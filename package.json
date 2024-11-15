@@ -1,11 +1,18 @@
 {
   "name": "cs641",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "expo-router/entry",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@clerk/clerk-expo": "^2.3.4",
+    "@expo/metro-runtime": "~3.2.3",
+    "expo-media-library": "^16.0.5",
+    "react-dom": "18.2.0",
+    "react-native-web": "~0.19.10"
+  }
 }
